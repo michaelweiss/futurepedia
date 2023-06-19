@@ -55,6 +55,7 @@ def tool_info(content):
         "is_features": False,
         "is_categories": False
     }
+    
     for line in content.split("\n"):
         line = line.strip()
         if line == "Product Information":
@@ -78,17 +79,19 @@ def tool_info(content):
                 state["is_product_information"] = False
                 state["is_visit_website"] = True
             elif state["is_added_on"]:
-                info["added_on"] = line
+                info["date"] = line
                 state["is_added_on"] = False
             elif state["is_features"]:
                 info["features"].append(line)
             elif state["is_categories"]:
                 if line != "Browse" and not line.isdigit() and line != ".":
                     info["categories"].append(line)
+
+    info["features"], info["use_cases"] = split_features_use_cases(info["features"])
     return info
 
-def extract_use_cases(features):
-    # Split the features into two lists: features proper and use cases
+# Split the features into two lists: features proper and use cases
+def split_features_use_cases(features):
     # The section containing use cases is delimited by the keyword "Use cases"
     # Find a string that starts with "Use cases" and return its index
     index = [i for i, feature in enumerate(features) if feature.lower().startswith("use cases")]
@@ -98,6 +101,32 @@ def extract_use_cases(features):
     else:
         use_cases = []
     return features, use_cases
+
+# Write the information about the tool in a category to a csv file
+def write_tool_data_to_csv(category):
+    with open(f"csv/{category}.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Tool", "Description", "Date", "Features", "Use Cases"])
+        for tool in list_tools_in_category(category):
+            data = collect_tool_data(tool)
+            if data:
+                writer.writerow(data)
+            else:
+                print(f"Description for {tool} not found")
+
+# Collect the information about a tool
+def collect_tool_data(tool):
+    filename = f"data/{tool}"
+    content = read_file(filename)
+    info = tool_info(content)
+    if "description" not in info:
+        return None
+    else:
+        description = info["description"]
+        date = info["date"]
+        features = " ".join(info["features"])
+        use_cases = " ".join(info["use_cases"])
+        return [tool, description, date, features, use_cases]
 
 if __name__ == "__main__":
 
@@ -126,47 +155,32 @@ if __name__ == "__main__":
             if os.path.exists(f"data/{tool}"):
                 print(f"Skipping {tool}")
                 continue
-            # Otherwise, extract the tool description
-            print(f"Extracting {tool} description")
+            # Otherwise, fetch the tool webpage
+            print(f"Fetching {tool} webpage")
             fetch_webpage_for_tool(tool)
             # Sleep for 5 seconds to be nice to the server
             time.sleep(5)
 
-    # If argument -f is passed, read the description of a tool
+    # If argument -f is passed, show the webpage for a tool
     elif "-f" in os.sys.argv:
         tool = os.sys.argv[2]
         filename = f"data/{tool}"
         content = read_file(filename)
         print(content)
 
-    # If argument -d is passed, extract the description from the website
+    # If argument -d is passed, extract the tool info from the website
     elif "-d" in os.sys.argv:
         tool = os.sys.argv[2]
         filename = f"data/{tool}"
         content = read_file(filename)
         info = tool_info(content)
         print("Description:", info["description"])
-        print("Added on:", info["added_on"])
-        features, use_cases = extract_use_cases(info["features"])
-        print("Features:", features)
-        print("Use cases:", use_cases)
+        print("Added on:", info["date"])
+        print("Features:", info["features"])
+        print("Use cases:", info["use_cases"])
+        print("Categories:", info["categories"])
 
-    # If argument -D is passed, extract descriptions for all the tools
+    # If argument -D is passed, extract data for all the tools in a category
     elif "-D" in os.sys.argv:
-        # Open a csv file for the category
-        # Headers: Tool, Description, Features, Use Cases
         category = os.sys.argv[2]
-        with open(f"csv/{category}.csv", "w") as f:
-            writer = csv.writer(f)
-            writer.writerow(["Tool", "Description", "Features", "Use Cases"])
-            for tool in os.listdir("data"):
-                filename = f"data/{tool}"
-                content = read_file(filename)
-                info = tool_info(content)
-                if "description" not in info:
-                    print(f"Description for {tool} not found")
-                else:
-                    features, use_cases = extract_use_cases(info["features"])
-                    features = " ".join(features)
-                    use_cases = " ".join(use_cases)
-                    writer.writerow([tool, info["description"], features, use_cases])
+        write_tool_data_to_csv(category)
