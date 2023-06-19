@@ -1,4 +1,6 @@
 # How to use
+
+## List tools
 First, run browse.py category to get the links of the tools in the category. This may take a while.
 
 ```bash
@@ -7,6 +9,18 @@ First, run browse.py category to get the links of the tools in the category. Thi
 python3 browse.py <category>
 ```
 
-Then, run extract.py -X category to download the tool descriptions.
+## Extract tool data
+Then, run extract.py -D category to download the tool information for a category into a csv file.
+
+```sh
+python3 extract.py -D <category>
+```
 
 Extract has a few other options. Please check the code.
+
+## Show landscape
+Run landscape.py to show the landscape of a category, and upload the csv file with the tool information to visualize the landscape.
+
+```sh
+streamlit run landscape.py
+```
