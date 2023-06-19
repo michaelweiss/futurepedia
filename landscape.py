@@ -190,19 +190,4 @@ if file_name is not None:
             # Download the table as a CSV file using a download button
             csv = clusters.to_csv(index=False)
             st.download_button("Download clusters", data=csv, file_name='clusters.csv', mime='text/csv')
-
-# # Create hierarchical clustering dendrogram
-# from scipy.cluster.hierarchy import dendrogram, linkage
-# # Compute the linkage matrix
-# Z = linkage(tfidf.toarray(), 'ward')
-# # Plot the dendrogram
-# fig, ax = plt.subplots(figsize=(6.4, 4.8))
-# dendrogram(Z, labels=corpus['name'].values)
-# st.pyplot(fig)
-
-# Show document-term matrix as a heatmap
-# Use a logarithmic scale to better show the differences in word frequencies
-# Use grey color map
-# fig, ax = plt.subplots(figsize=(6.4, 4.8))
-# sns.heatmap(np.log(dtm+1), cmap='Greys')
-# st.pyplot(fig)
+            
