@@ -45,10 +45,12 @@ def fetch_webpage_for_tool(tool):
     write_file(f"data/{tool}", content)
     return content
 
-def information(content):
-    information = {}
+# Extract information from the content of a tool webpage
+def tool_info(content):
+    info = {}
     state = {
         "is_product_information": False,
+        "is_added_on": False,
         "is_visit_website": False,
         "is_features": False,
         "is_categories": False
@@ -57,29 +59,33 @@ def information(content):
         line = line.strip()
         if line == "Product Information":
             state["is_product_information"] = True
+        elif line == "Added on":
+            state["is_added_on"] = True
         elif line == "Visit website":
             state["is_visit_website"] = True
         elif line.endswith("Features"):
             state["is_features"] = True
-            information["features"] = []
+            info["features"] = []
         elif line == "Categories":
             state["is_categories"] = True
-            information["categories"] = []
+            info["categories"] = []
             state["is_features"] = False
         elif line == "View All Categories":
             state["is_categories"] = False
         elif line != "":
             if state["is_product_information"] and state["is_visit_website"]:
-                information["description"] = line
+                info["description"] = line
                 state["is_product_information"] = False
                 state["is_visit_website"] = True
+            elif state["is_added_on"]:
+                info["added_on"] = line
+                state["is_added_on"] = False
             elif state["is_features"]:
-                information["features"].append(line)
+                info["features"].append(line)
             elif state["is_categories"]:
                 if line != "Browse" and not line.isdigit() and line != ".":
-                    information["categories"].append(line)
-
-    return information
+                    info["categories"].append(line)
+    return info
 
 def extract_use_cases(features):
     # Split the features into two lists: features proper and use cases
@@ -111,7 +117,7 @@ if __name__ == "__main__":
         content = fetch_webpage_for_tool(tool)
         print(content)  
 
-    # If argument -X is passed, iterate through all the tools in a category 
+    # If argument -X is passed, fetch all the tools in a category 
     elif "-X" in os.sys.argv:
         category = os.sys.argv[2]
         tools = list_tools_in_category(category)
@@ -135,12 +141,14 @@ if __name__ == "__main__":
 
     # If argument -d is passed, extract the description from the website
     elif "-d" in os.sys.argv:
+        tool = os.sys.argv[2]
         filename = f"data/{tool}"
         content = read_file(filename)
-        info = information(content)
+        info = tool_info(content)
         print("Description:", info["description"])
+        print("Added on:", info["added_on"])
         features, use_cases = extract_use_cases(info["features"])
-        print("Features:", info["features"])
+        print("Features:", features)
         print("Use cases:", use_cases)
 
     # If argument -D is passed, extract descriptions for all the tools
@@ -154,7 +162,7 @@ if __name__ == "__main__":
             for tool in os.listdir("data"):
                 filename = f"data/{tool}"
                 content = read_file(filename)
-                info = information(content)
+                info = tool_info(content)
                 if "description" not in info:
                     print(f"Description for {tool} not found")
                 else:
