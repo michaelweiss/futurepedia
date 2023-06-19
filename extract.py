@@ -99,37 +99,36 @@ if __name__ == "__main__":
         print("Usage: python extract.py [-c|-x|-X|-f|-d|-D] [<category>|<tool>]")
         os.sys.exit(1)
 
-    # If argument -c is passed, extract the tools in a category
-    if "-c" in os.sys.argv:
+    # If argument -c is passed, list the tools in a category
+    elif "-c" in os.sys.argv:
         category = os.sys.argv[2]
         tools = list_tools_in_category(category)
         print(tools)
 
-    # If argument -x is passed, fetch the contnet of the webpage describing a tool
-    if "-x" in os.sys.argv:
+    # If argument -x is passed, fetch the webpage describing a tool
+    elif "-x" in os.sys.argv:
         tool = os.sys.argv[2]
         content = fetch_webpage_for_tool(tool)
         print(content)  
 
     # If argument -X is passed, iterate through all the tools in a category 
-    if "-X" in os.sys.argv:
+    elif "-X" in os.sys.argv:
         category = os.sys.argv[2]
-        tools = tools_in_category(category)
+        tools = list_tools_in_category(category)
         for tool in tools:
             # Check if the tool has already been extracted
             if os.path.exists(f"data/{tool}"):
                 print(f"Skipping {tool}")
                 continue
+            # Otherwise, extract the tool description
             print(f"Extracting {tool} description")
-            # # Otherwise, extract the tool description
-            # url = f"https://www.futurepedia.io/tool/{tool}"
-            # content = fetch_content(url)
-            # write_file(f"data/{tool}", content)
-            # # Sleep for 5 seconds to avoid getting blocked
-            # time.sleep(5)
+            fetch_webpage_for_tool(tool)
+            # Sleep for 5 seconds to be nice to the server
+            time.sleep(5)
 
     # If argument -f is passed, read the description of a tool
     elif "-f" in os.sys.argv:
+        tool = os.sys.argv[2]
         filename = f"data/{tool}"
         content = read_file(filename)
         print(content)
