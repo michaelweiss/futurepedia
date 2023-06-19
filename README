@@ -1,0 +1,12 @@
+# How to use
+First, run browse.py category to get the links of the tools in the category. This may take a while.
+
+```bash
+
+```sh
+python3 browse.py <category>
+```
+
+Then, run extract.py -X category to download the tool descriptions.
+
+Extract has a few other options. Please check the code.
