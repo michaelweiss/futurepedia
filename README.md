@@ -3,8 +3,6 @@
 ## List tools
 First, run browse.py category to get the links of the tools in the category. This may take a while.
 
-```bash
-
 ```sh
 python3 browse.py <category>
 ```
