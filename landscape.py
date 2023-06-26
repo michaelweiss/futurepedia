@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import math
+import textwrap
 
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import CountVectorizer
@@ -46,7 +47,7 @@ if file_name is not None:
         st.subheader('Data')
         st.write("""
             This is a database of AI tools for HR from Futurepedia.
-            Here, we will focus on the company descriptions and use them as the basis
+            Here, we will focus on the tool descriptions and use them as the basis
             for clustering the companies.
             """)
         st.dataframe(corpus)
@@ -111,7 +112,27 @@ if file_name is not None:
                 G.nodes[i]["group"] = k
             k = k + 1
 
+        # Use the content as the title of each node
+        for node in G.nodes():
+            G.nodes[node]["title"] = multi_line_text(
+                corpus[corpus['name'] == node]['content'].values[0], 
+                max_width=40, max_lines=10, is_html=True)
+
         return G
+    
+    def multi_line_text(txt, max_width=12, max_lines=2, is_html=False):
+        """
+        Create a multi-line text
+        
+        Parameters:
+        txt - the text to wrap
+        max_width - the maximum width of a line
+        max_lines - the maximum number of lines
+        """
+        lines = textwrap.wrap(txt, width=max_width, break_long_words=False, max_lines=max_lines)
+        if is_html:
+            return '<br>'.join(lines)
+        return '\n'.join(lines)
 
     # Create a network graph from the pairwise cosine similarity
     min_sim = st.sidebar.slider("Minimum similarity", 0.0, 1.0, 0.30, 0.05)
@@ -130,7 +151,7 @@ if file_name is not None:
             # Save network graph to file for use in Gephi
             nx.write_gexf(G, "network.gexf")
 
-            # Show table of communities
+            # Show table of communitie
             st.subheader('Communities')
             st.write('The table below shows the companies in each community.')
             groups = {}
@@ -190,4 +211,3 @@ if file_name is not None:
             # Download the table as a CSV file using a download button
             csv = clusters.to_csv(index=False)
             st.download_button("Download clusters", data=csv, file_name='clusters.csv', mime='text/csv')
-            

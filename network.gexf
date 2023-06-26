@@ -1,0 +1,659 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-06-22">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="smooth" type="boolean" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="group" type="long" />
+      <attribute id="1" title="title" type="string" />
+      <attribute id="2" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="T0-1" label="T0-1">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Companies often have cumbersome&lt;br&gt;traditional systems, and to leverage the&lt;br&gt;capabilities of AI, they need to&lt;br&gt;reimagine and redesign these systems&lt;br&gt;from the ground up (Agrawal et al.&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-2" label="T0-2">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="AI can be utilized to streamline&lt;br&gt;decision-making by making high-fidelity&lt;br&gt;predictions that, when combined with&lt;br&gt;human judgment, can significantly&lt;br&gt;improve efficiency and value creation in&lt;br&gt;various industries, such as insurance&lt;br&gt;(Agrawal et al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-3" label="T0-3">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="There is a common concern that AI&lt;br&gt;systems may perpetuate biases, but in&lt;br&gt;contrast, AI systems offer more scrutiny&lt;br&gt;than human decisions, making it easier&lt;br&gt;to detect and rectify biases (Agrawal et&lt;br&gt;al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-4" label="T0-4">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Machines do not make decisions per se,&lt;br&gt;but through codified human judgment and&lt;br&gt;AI predictions, they can execute actions&lt;br&gt;that resemble decision-making. This has&lt;br&gt;the potential to scale operations and&lt;br&gt;reallocate decision-making powers&lt;br&gt;(Agrawal et al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-5" label="T0-5">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="The integration of AI into traditional&lt;br&gt;systems needs careful consideration, as&lt;br&gt;old systems are often resistant to&lt;br&gt;change due to their interdependent&lt;br&gt;nature. AI can bring substantial value&lt;br&gt;if integrated into a suitably redesigned&lt;br&gt;system, such as in education (Agrawal et&lt;br&gt;al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-6" label="T0-6">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="Generative AI has a quantifiable impact&lt;br&gt;on the value of firms. Firms with higher&lt;br&gt;exposure to Generative AI have been&lt;br&gt;shown to earn higher returns, which&lt;br&gt;illustrates AI's disruptive potential&lt;br&gt;across various industries (Eisfeldt&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-7" label="T0-7">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="Creative problem-solving and innovation&lt;br&gt;can be enhanced through a human-centered&lt;br&gt;AI approach. By facilitating dialogue&lt;br&gt;between data scientists and non-&lt;br&gt;technical domain experts, AI can be made&lt;br&gt;more accessible and relevant for problem&lt;br&gt;discovery and idea generation (Schleith&lt;br&gt;2022)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-8" label="T0-8">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="Soft Systems Methodology (SSM) is vital&lt;br&gt;for adopting a participative approach to&lt;br&gt;problem-solving and systems modeling,&lt;br&gt;laying the foundation for rethinking&lt;br&gt;systems in the context of new&lt;br&gt;technologies like AI (Hindle 2011)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-9" label="T0-9">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="AI technologies not only streamline&lt;br&gt;decision-making but also open avenues&lt;br&gt;for new business opportunities,&lt;br&gt;especially when AI predictions become&lt;br&gt;precise enough to inform business&lt;br&gt;decisions at micro-levels (Agrawal et&lt;br&gt;al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T0-10" label="T0-10">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The implementation of AI systems will&lt;br&gt;likely face resistance initially, but as&lt;br&gt;the benefits and the potential for&lt;br&gt;fairer and more unbiased decision-making&lt;br&gt;become apparent, the adoption of AI&lt;br&gt;systems is expected to become more&lt;br&gt;widespread (Agrawal et al. 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-1" label="T1-1">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Necessity of Agile Decision-Making:&lt;br&gt;Agrawal et al. (2023) emphasize the&lt;br&gt;importance of shifting from rigid rule-&lt;br&gt;based approaches to more agile decision-&lt;br&gt;making processes, especially in crisis&lt;br&gt;situations like pandemics, by leveraging&lt;br&gt;AI predictions." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-2" label="T1-2">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="AI as a Catalyst in Early Stage Design:&lt;br&gt;Zhu and Luo (2023) illustrate how AI,&lt;br&gt;particularly natural language&lt;br&gt;generation, can act as a catalyst in the&lt;br&gt;early stages of design by synthesizing&lt;br&gt;knowledge and fostering creativity." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-4" label="T1-4">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Valuing Multiple Perspectives in&lt;br&gt;Sociotechnical Systems: DeBruijn (2009)&lt;br&gt;argues for the importance of recognizing&lt;br&gt;and valuing both the hard system&lt;br&gt;perspective and actor perspective in the&lt;br&gt;design of complex sociotechnical&lt;br&gt;systems." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-7" label="T1-7">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="Configurational Thinking in Technology&lt;br&gt;Adoption: Fichman (2014) introduces the&lt;br&gt;concept of configurational thinking,&lt;br&gt;which involves seeing technology as part&lt;br&gt;of a larger system and understanding how&lt;br&gt;different elements reinforce each other&lt;br&gt;to generate value." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-8" label="T1-8">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="Importance of Knowledge Synthesis and&lt;br&gt;Problem Reframing: Across multiple&lt;br&gt;papers, synthesizing knowledge from&lt;br&gt;various sources and reframing problems&lt;br&gt;are central themes in creating&lt;br&gt;innovative solutions in systems design." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T1-9" label="T1-9">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="Interplay of Actors, Rules, and&lt;br&gt;Technology in Systems: The papers&lt;br&gt;collectively demonstrate that systems&lt;br&gt;are not just built on technology alone&lt;br&gt;but are the result of the interplay&lt;br&gt;between technology, the actors involved,&lt;br&gt;and the rules governing their&lt;br&gt;interactions." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-1" label="T2-1">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="Early Adoption Advantage: Deploying AI&lt;br&gt;early gives a competitive advantage&lt;br&gt;because AI learns over time, improving&lt;br&gt;prediction accuracy and attracting more&lt;br&gt;users, which creates a feedback loop for&lt;br&gt;further improvement (Agrawal et al.,&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-2" label="T2-2">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Decision-making vs. Rules: AI is&lt;br&gt;particularly valuable in decision-making&lt;br&gt;as it lowers the cost of information and&lt;br&gt;predictions, making actions more&lt;br&gt;responsive and adaptive compared to&lt;br&gt;rule-following, though rules might still&lt;br&gt;be important for reliability (Agrawal et&lt;br&gt;al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-3" label="T2-3">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Reducing Uncertainty: AI can reduce&lt;br&gt;uncertainties and inefficiencies in&lt;br&gt;existing systems by providing better&lt;br&gt;predictions, allowing for systemic&lt;br&gt;changes and innovative designs that&lt;br&gt;wouldn’t have been possible without AI&lt;br&gt;(Agrawal et al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-4" label="T2-4">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="Complex Reasoning through Chains of&lt;br&gt;Thought: Large language models can&lt;br&gt;perform complex reasoning by generating&lt;br&gt;a chain of thought, which is a series of&lt;br&gt;intermediate reasoning steps. This&lt;br&gt;emerges naturally in sufficiently large&lt;br&gt;models and improves performance in&lt;br&gt;various tasks (Wei and Wang, 2022)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-5" label="T2-5">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Innovation in the Innovation System: AI&lt;br&gt;can have a cascading effect on&lt;br&gt;innovation itself, predicting the&lt;br&gt;consequences of new combinations and&lt;br&gt;enabling faster hypothesis generation&lt;br&gt;which could enhance innovation&lt;br&gt;productivity (Agrawal et al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-7" label="T2-7">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="Generative Design Concepts: AI,&lt;br&gt;particularly generative pre-trained&lt;br&gt;transformers like GPT-2 and GPT-3, can&lt;br&gt;facilitate creative reasoning in design&lt;br&gt;tasks, especially in the early design&lt;br&gt;phase, through natural language&lt;br&gt;generation of novel concepts (Zhu and&lt;br&gt;Luo, 2022)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-10" label="T2-10">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Continuous Feedback: Systems integrating&lt;br&gt;AI need continuous feedback loops for&lt;br&gt;the AI to learn and adapt. System&lt;br&gt;designs should consider collecting high-&lt;br&gt;frequency feedback data for the AI to&lt;br&gt;generate better predictions (Agrawal et&lt;br&gt;al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T2-11" label="T2-11">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="AI-Enabled System Redesign: The&lt;br&gt;introduction of AI, especially in&lt;br&gt;prediction, requires an entire redesign&lt;br&gt;of the system rather than inserting AI&lt;br&gt;into existing systems, taking into&lt;br&gt;account new possibilities and changes in&lt;br&gt;reliability (Agrawal et al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-2" label="T3-2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The Between Times: The period after the&lt;br&gt;emergence of AI's potential and before&lt;br&gt;its widespread adoption is critical.&lt;br&gt;During this time, developing system&lt;br&gt;solutions that integrate AI into the&lt;br&gt;broader ecosystem is challenging but&lt;br&gt;crucial to unlocking AI’s potential&lt;br&gt;(AgrawalGansGoldfarbChapter2, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-3" label="T3-3">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Types of AI Solutions: AI solutions can&lt;br&gt;be classified into point solutions,&lt;br&gt;application solutions, and system&lt;br&gt;solutions. System solutions, which&lt;br&gt;require substantive changes and affect&lt;br&gt;other decisions in the system, are more&lt;br&gt;challenging to implement but can&lt;br&gt;generate higher returns&lt;br&gt;(AgrawalGansGoldfarbChapter2, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-4" label="T3-4">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Interdependent Decisions and System&lt;br&gt;Design: Decisions in organizational&lt;br&gt;systems often do not operate in&lt;br&gt;isolation. System design should consider&lt;br&gt;coordination and modularity to address&lt;br&gt;the reliability challenges introduced by&lt;br&gt;AI-based decision-making in systems with&lt;br&gt;interdependent decisions&lt;br&gt;(AgrawalGansGoldfarbChapter16, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-6" label="T3-6">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="Enhanced Prediction and Decision&lt;br&gt;Variation (cont.): AI enhances&lt;br&gt;predictive abilities, but also increases&lt;br&gt;decision variation, which is a challenge&lt;br&gt;for organizations with interdependent&lt;br&gt;decisions. Reducing inter-dependencies&lt;br&gt;can facilitate AI adoption but at the&lt;br&gt;expense of synergies (AgrawalGans,&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-7" label="T3-7">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="Generative Design Tools: AI-powered&lt;br&gt;generative design tools offer new&lt;br&gt;avenues for collaboration in design&lt;br&gt;processes. These tools enable designers&lt;br&gt;to explore and understand design&lt;br&gt;problems and solution spaces more&lt;br&gt;thoroughly, potentially leading to&lt;br&gt;innovative and high-performing products&lt;br&gt;(Saadi, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-8" label="T3-8">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="The Role of Judgment in Decision Making:&lt;br&gt;Improved predictive capabilities due to&lt;br&gt;AI require careful evaluation and&lt;br&gt;judgment to decide the course of action.&lt;br&gt;This judgment is crucial in the face of&lt;br&gt;complexity and requires understanding&lt;br&gt;the nuances of improved decision-making&lt;br&gt;(Agrawal, 2018)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-9" label="T3-9">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="AI in Education: AI technologies like&lt;br&gt;ChatGPT can be used to overcome barriers&lt;br&gt;to learning in classrooms by improving&lt;br&gt;the transfer of knowledge, breaking the&lt;br&gt;illusion of explanatory depth, and&lt;br&gt;training students to critically evaluate&lt;br&gt;explanations (Mollick, 2022)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-10" label="T3-10">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="Principles for Designing Generative AI&lt;br&gt;Applications: There is a need for&lt;br&gt;guidelines to design generative AI&lt;br&gt;applications safely and productively. A&lt;br&gt;set of principles focused on the&lt;br&gt;characteristics of generative AI and&lt;br&gt;protecting against potential harms is&lt;br&gt;vital in designing novel human-AI&lt;br&gt;applications (Weisz, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-11" label="T3-11">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="Transition to Probabilistic Systems: AI&lt;br&gt;introduces probabilistic thinking into&lt;br&gt;systems, transitioning them from&lt;br&gt;deterministic to probabilistic. This&lt;br&gt;shift can create opportunities for&lt;br&gt;enhanced productivity but may require&lt;br&gt;system redesigns that include&lt;br&gt;prediction, judgment, and regulatory&lt;br&gt;functions to ensure societal acceptance&lt;br&gt;(AgrawalGansGoldfarbChapter14, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-12" label="T3-12">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="Absorptive Capacity Enhancement: AI-&lt;br&gt;based data-driven applications play a&lt;br&gt;significant role in enhancing an&lt;br&gt;organization’s absorptive capacity,&lt;br&gt;i.e., its ability to create,&lt;br&gt;disseminate, and exploit knowledge. This&lt;br&gt;is essential for gaining competitive&lt;br&gt;advantages in the current data-centric&lt;br&gt;environment (Hofmann, 2021)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-13" label="T3-13">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="Inter-decision Coordination: AI adoption&lt;br&gt;is enhanced in environments with inter-&lt;br&gt;decision coordination, especially where&lt;br&gt;there are more inter-dependencies. In&lt;br&gt;such cases, AI adoption should be&lt;br&gt;considered as part of a designed&lt;br&gt;organizational system rather than only&lt;br&gt;at the individual task level&lt;br&gt;(AgrawalGans, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T3-14" label="T3-14">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="Need for Regulatory Framework: The&lt;br&gt;introduction of AI and the transition to&lt;br&gt;probabilistic systems may necessitate an&lt;br&gt;FDA-type regulatory framework to assess&lt;br&gt;machines’ decisions. This is crucial for&lt;br&gt;ensuring the success of system redesigns&lt;br&gt;that rely on probabilistic information&lt;br&gt;(AgrawalGansGoldfarbChapter14, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-1" label="T4-1">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Value Through System Redesign: AI can&lt;br&gt;create significant value not only&lt;br&gt;through point solutions but more&lt;br&gt;importantly through system-level&lt;br&gt;solutions that involve rethinking and&lt;br&gt;redesigning processes (Agrawal et al.,&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-3" label="T4-3">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="Knowledge Augmentation: Integrating&lt;br&gt;structured knowledge sources like&lt;br&gt;Knowledge Graphs with AI systems can&lt;br&gt;significantly enhance their capabilities&lt;br&gt;and make them more reliable (Pan and&lt;br&gt;Luo, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-4" label="T4-4">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="Improved Idea Generation: AI can be used&lt;br&gt;to facilitate more elaborate and&lt;br&gt;structured idea generation, contributing&lt;br&gt;to more efficient and effective&lt;br&gt;innovation processes (Poser, 2022)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-5" label="T4-5">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Economic Power Shifts: The adoption of&lt;br&gt;AI can cause shifts in economic power at&lt;br&gt;various levels, and recognizing these&lt;br&gt;shifts is essential for understanding&lt;br&gt;the full impact of AI adoption (Agrawal&lt;br&gt;et al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-6" label="T4-6">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="Enhancing AI with Reasoning and Actions:&lt;br&gt;Combining reasoning abilities with task-&lt;br&gt;specific actions in AI systems can lead&lt;br&gt;to more effective and interpretable&lt;br&gt;solutions in language and decision-&lt;br&gt;making tasks (Yao and Zhao, 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-7" label="T4-7">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="Generative AI in Business Strategy:&lt;br&gt;Generative AI has the potential to&lt;br&gt;revolutionize business strategies by&lt;br&gt;enabling the creation of hybrid physical&lt;br&gt;and virtual experiences, and businesses&lt;br&gt;need to adapt to this change (Mondal,&lt;br&gt;2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T4-8" label="T4-8">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Resistance to Change: Incumbents who&lt;br&gt;stand to lose power due to AI-driven&lt;br&gt;system-level changes may resist, and&lt;br&gt;this resistance can impact the pace and&lt;br&gt;nature of AI adoption in various&lt;br&gt;industries (Agrawal et al., 2023)." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-1" label="T5-1">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Digital Innovation Framework: Wiesbock&lt;br&gt;(2020) suggests a linking framework for&lt;br&gt;embedding digital innovations in&lt;br&gt;organizations, with three concentric&lt;br&gt;rings: technology development, enablers,&lt;br&gt;and governance. This provides a&lt;br&gt;structured approach for realizing&lt;br&gt;digital transformation." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-2" label="T5-2">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="Chatbots for Brainstorming: Wieland&lt;br&gt;(2023) found that chatbots facilitate&lt;br&gt;brainstorming and enhance idea&lt;br&gt;generation by reducing evaluation&lt;br&gt;apprehension, suggesting that chatbots&lt;br&gt;can be effective members of human-&lt;br&gt;machine teams." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-3" label="T5-3">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="AI in Education: Eager (2023) discusses&lt;br&gt;how AI, particularly large language&lt;br&gt;models (LLMs), can be used to enhance&lt;br&gt;teaching and learning practices in&lt;br&gt;higher education, but also highlights&lt;br&gt;the challenges, such as plagiarism&lt;br&gt;detection." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-6" label="T5-6">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Digital Objects in Sociotechnical&lt;br&gt;Contexts: Hund (2021) emphasizes the&lt;br&gt;conceptualization of digital innovation&lt;br&gt;as the creation or manipulation of&lt;br&gt;digital objects within sociotechnical&lt;br&gt;contexts and calls for a coordinated&lt;br&gt;strategy that considers both technical&lt;br&gt;and social factors." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-7" label="T5-7">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Digital Entrepreneurship: Nambisan&lt;br&gt;(2017) elaborates on how digital&lt;br&gt;technologies have transformed the nature&lt;br&gt;of entrepreneurship, especially in terms&lt;br&gt;of the entrepreneurial process and&lt;br&gt;agency, calling for explicit theorizing&lt;br&gt;of concepts related to digital&lt;br&gt;technologies." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-9" label="T5-9">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="Competitive Edge through Data in AI&lt;br&gt;Deployment: Agrawal (2020) discusses how&lt;br&gt;companies can gain a competitive edge by&lt;br&gt;capturing a good pool of training data&lt;br&gt;early on and how latecomers can still&lt;br&gt;catch up through superior data sources&lt;br&gt;or niche tailoring." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-10" label="T5-10">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Characteristics of Digital Technologies&lt;br&gt;in Innovation: Bogers (2022) takes stock&lt;br&gt;of the characteristics of digital&lt;br&gt;technologies that give rise to&lt;br&gt;innovation across sectors, emphasizing&lt;br&gt;the speed, observability, and ease in&lt;br&gt;investigating relationships as key&lt;br&gt;attributes." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-11" label="T5-11">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="Soft Systems Methodology in Education:&lt;br&gt;Patel (1995) introduces soft systems&lt;br&gt;methodology as a structured approach to&lt;br&gt;improving teaching and learning&lt;br&gt;processes in education through the&lt;br&gt;systematic analysis of human activity&lt;br&gt;systems." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+      <node id="T5-13" label="T5-13">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Human-AI Complementarity in Decision&lt;br&gt;Making: Jarrahi (2018) emphasizes the&lt;br&gt;complementarity of humans and AI in&lt;br&gt;decision-making processes within&lt;br&gt;organizations. AI can handle complexity&lt;br&gt;through computational processing, while&lt;br&gt;humans offer a holistic approach to&lt;br&gt;uncertainty." />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="T0-1" target="T0-3" id="0" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-1" target="T0-5" id="1" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-1" target="T2-11" id="2" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T0-3" id="3" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T0-4" id="4" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T0-9" id="5" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T1-1" id="6" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T2-2" id="7" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-2" target="T3-8" id="8" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T0-4" id="9" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T0-5" id="10" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T0-9" id="11" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T0-10" id="12" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T2-3" id="13" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-3" target="T3-4" id="14" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-4" target="T0-9" id="15" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-4" target="T0-10" id="16" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-4" target="T1-1" id="17" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-4" target="T2-2" id="18" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-4" target="T3-8" id="19" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-6" target="T3-10" id="20" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-7" target="T4-4" id="21" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-8" target="T5-11" id="22" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-9" target="T1-1" id="23" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-9" target="T4-7" id="24" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-10" target="T3-2" id="25" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T0-10" target="T4-8" id="26" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-1" target="T2-2" id="27" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-1" target="T5-13" id="28" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-2" target="T2-1" id="29" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-2" target="T2-7" id="30" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-4" target="T5-6" id="31" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-7" target="T1-9" id="32" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T1-8" target="T4-3" id="33" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-1" target="T2-10" id="34" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-3" target="T2-10" id="35" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-3" target="T2-11" id="36" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-4" target="T4-6" id="37" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-5" target="T5-10" id="38" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T2-7" target="T3-7" id="39" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-2" target="T3-3" id="40" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-3" target="T4-1" id="41" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-6" target="T3-13" id="42" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-9" target="T5-3" id="43" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-10" target="T4-7" id="44" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-11" target="T3-14" id="45" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T3-12" target="T5-9" id="46" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T4-4" target="T5-2" id="47" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T4-5" target="T4-8" id="48" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-1" target="T5-6" id="49" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-1" target="T5-7" id="50" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-1" target="T5-10" id="51" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-6" target="T5-7" id="52" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-6" target="T5-10" id="53" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="T5-7" target="T5-10" id="54" weight="1">
+        <attvalues>
+          <attvalue for="3" value="true" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
